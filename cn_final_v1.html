@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/final_cn.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!--    Start of 陳寧-->
+    <div class="">
+        <!--背景大圖-->
+        <div class="sticky-top" style="height:100vh;background-image: url('assets/cn_background2.jpg');background-size: cover;z-index:-1">
+        </div>
+        <!--引言-->
+        <div class="row" style="height:100vh;z-index:999;background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5))">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <p style="padding-top: 20vh;color: white;font-size: 3vh;line-height: 6vh;">
+                    隨著國人健康觀念提升，近年台灣健身人口持續增長，同時帶來不同領域的新商機。健身族瘋健身，帶動健身餐大大盛行，因為飲食習慣的改變，又現代人長時間在外奔波會選擇外食，為顧及飲食均衡，他們會在五花八門的餐廳中選擇最符合自己期待的健康飲食，如增肌與減脂的人，在蛋白質與澱粉選擇中有不同考量。店家紛紛推出健身餐，卡路里、營養含量都幫消費者算好，尤其雞胸肉被認為有助於減肥及體態維持，超商、餐飲業者看準國人追求健康，推出相關產品一同搶攻健身財。
+                </p>
+                <p style="padding-top: 5vh;color: white;font-size: 3vh;line-height: 6vh;">
+                    在本專題中，我們聚焦於健身飲食，講述時下青年為了身體健康會如何選擇餐飲，以及納入考量的因素為何，以了解他們對健康飲食的想法與期待。
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <!--    受訪者一覽-->
+    <div id="cn_allinterviewee" style="height:120vh;background-color:peachpuff;">
+        <div class="row" style="padding-top: 5vh;background-color:peachpuff;">
+            <div class="col-2"></div>
+
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown1()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明3</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown2()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明3</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown3()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明3</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row" style="padding-top: 20vh;">
+            <div class="col-2"></div>
+
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown4()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明4</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown5()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明5</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <div style="height: 35vh;width: 35vh">
+                    <a onclick="cn_scrolldown6()">
+                        <img class="img-thumbnail cn_img_hover" src="./assets/cn_person.jpg" alt="Lights" style="border-radius:50%;">
+                        <div class="">
+                            <p style="text-align:center">王小明6</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+
+
+    <!--    受訪者橫向卷軸-->
+    <div id="cn_outer" class="" style="height:500vh;background-color:lightgrey">
+        <div class="sticky-top">
+            <div id="cn_horizontal" style="height:100vh;width:600vw;position:absolute;top:0;left:0;background-color:lightblue">
+                <div class="row">
+                    <div class="col-2" style="height:100vh;background-color:#111">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明1</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                                <a href="#cn_allinterviewee">go back!go back!</a>
+                                <!--回到受訪者一覽-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" style="height:100vh;background-color:#222">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明2</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" style="height:100vh;background-color:#333">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明3</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" style="height:100vh;background-color:#444">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明4</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" style="height:100vh;background-color:#555">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明5</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2" style="height:100vh;background-color:#666">
+                        <div class="row">
+                            <div class="rol-5">
+                                <img src="assets/cn_person.jpg" style="height:100vh;width:41vw">
+                            </div>
+                            <div class="rol-7">
+                                <p style="color:white;padding: 10vh">姓名 : 王小明6</p>
+                                <p style="color:white;padding: 10vh">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industrtttttwwwwwqqq
+                                </p>
+                                <a href="#cn_allinterviewee">go back!go back!</a>
+                                <!--回到受訪者一覽-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="" style="height:100vh;background-color:coral;"></div>
+    <!--    End of 陳寧-->
+
+
+    <!--    Start of 昱安-->
+    <div class="" style="height:100vh;background-color:red;">Start of 昱安</div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!--    新增 jquery 版本以新增 .animate 用法-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(window).scroll(function() {
+            var current_pos = $(document).scrollTop();
+            var winw = $(window).width();
+            var cn_outerh = $("#cn_outer").height();
+            var cn_outer_pos = $("#cn_outer").offset().top;
+            var cn_horw = $("#cn_horizontal").width()
+            if (current_pos > cn_outer_pos && current_pos <= cn_outer_pos + cn_outerh) {
+                update_left = (-1) * (cn_horw - winw) * (current_pos - cn_outer_pos) / cn_outerh;
+                $("#cn_horizontal").css("left", update_left);
+                //$(document).scrollLeft(-update_left);
+            } else if (current_pos < cn_outer_pos - 2) {
+                $("#cn_horizontal").css("left", 0);
+            } else if (current_pos >= cn_outer_pos + cn_outerh + 2) {
+                $("#cn_horizontal").css("left", -5 * winw - 20 * 5);
+            }
+        });
+
+        //控制受訪者一覽跳轉至詳細資訊
+        function cn_scrolldown1() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 0 * $('#cn_outer').height() / 5
+            }, 800);
+        };
+
+        function cn_scrolldown2() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 1 * $('#cn_outer').height() / 5
+            }, 1200);
+        };
+
+        function cn_scrolldown3() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 0 * $('#cn_outer').height() / 5
+            }, 800);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 1 * $('#cn_outer').height() / 5
+            }, 0);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 2 * $('#cn_outer').height() / 5
+            }, 350);
+        };
+
+        function cn_scrolldown4() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 0 * $('#cn_outer').height() / 5
+            }, 800);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 2 * $('#cn_outer').height() / 5
+            }, 0);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 3 * $('#cn_outer').height() / 5
+            }, 350);
+        };
+
+        function cn_scrolldown5() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 0 * $('#cn_outer').height() / 5
+            }, 800);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 3 * $('#cn_outer').height() / 5
+            }, 0);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 4 * $('#cn_outer').height() / 5
+            }, 350);
+        };
+
+        function cn_scrolldown6() {
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 0 * $('#cn_outer').height() / 5
+            }, 800);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 4 * $('#cn_outer').height() / 5
+            }, 0);
+            $("html, body").animate({
+                scrollTop: $('#cn_outer').offset().top + 5 * $('#cn_outer').height() / 5
+            }, 350);
+        };
+
+    </script>
+
+</body>
+
+</html>
